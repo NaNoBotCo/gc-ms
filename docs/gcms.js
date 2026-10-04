@@ -376,7 +376,7 @@
       var h = el("h4"); h.appendChild(bi(l.name_th || l.name_en, l.name_en || l.name_th)); pop.appendChild(h);
       var o = el("p", "org"); o.appendChild(bi((l.org_th || l.org_en || "") + " · " + (l.province_th || ""), (l.org_en || l.org_th || "") + " · " + (l.province_en || ""))); pop.appendChild(o);
       if (l.gcms_min) { var pp = el("p", "price"); var bt = "฿" + l.gcms_min.toLocaleString("en-US"); pp.appendChild(bi("GC-MS " + bt + " ต่อตัวอย่าง", "GC-MS " + bt + " per sample")); pop.appendChild(pp); if (l.gcms_item) pop.appendChild(el("p", "org", l.gcms_item)); }
-      if (!l.gcms_confirmed) { var u = el("p", "maybe"); u.appendChild(bi("ยังไม่เห็น GC-MS ในหน้าของเขาเอง โทรถามก่อน", "GC-MS not seen on their own pages yet; call first")); pop.appendChild(u); }
+      if (!l.gcms_confirmed) { var u = el("p", "maybe"); u.appendChild(bi("ยังไม่เห็น GC-MS ในหน้าของเขาเอง", "GC-MS not seen on their own pages yet")); pop.appendChild(u); }
       if (l.phone) { var a = el("a", "call", l.phone); a.href = "tel:" + l.phone.split(/[,;/]/)[0].replace(/[^\d+]/g, ""); pop.appendChild(a); }
       var more = el("a", "more"); more.href = "#lab-" + l.id; more.appendChild(bi("รายละเอียดทั้งหมด ↓", "Everything we have ↓")); pop.appendChild(more);
       var x = el("button", "x", "×"); x.type = "button"; x.setAttribute("aria-label", "ปิด · Close"); x.addEventListener("click", function () { pop.hidden = true; }); pop.appendChild(x);

@@ -3768,7 +3768,7 @@
      "what": "DMSc department-wide rate table (อัตราค่าบำรุงการตรวจวิเคราะห์และให้บริการ), embedded data incl. regional centre phone list"
     }
    ],
-   "notes": "Rates date from the 2021 manual revision; check the current DMSc schedule.",
+   "notes": "Rates date from the 2021 manual revision.",
    "has_price": true,
    "gcms_min": 700,
    "gcms_item": "Urine drug confirmation (TLC, GC, GC-MS, LC-MS)",
@@ -5399,7 +5399,7 @@
      "what": "lab address, phones, email, map"
     }
    ],
-   "notes": "Private company housed on a university campus. The service is titled 'GC technique'; the page shows GC-MS results. Borderline: confirm the instrument before relying on it.",
+   "notes": "Private company housed on a university campus. The service is titled 'GC technique'; the page shows GC-MS results.",
    "has_price": false,
    "gcms_min": null,
    "gcms_item": null,
@@ -6353,7 +6353,7 @@
      "what": "RIC coordinator phone/email, hours Mon-Fri 8:30-16:30"
     }
    ],
-   "notes": "Hourly instrument-use rates; call the instrument scientist before booking. RIC's 499/2568 sheet lists only GC; the GC-MS units come under the newer 216/2569 announcement.",
+   "notes": "Hourly instrument-use rates. RIC's 499/2568 sheet lists only GC; the GC-MS units come under the newer 216/2569 announcement.",
    "has_price": true,
    "gcms_min": null,
    "gcms_item": null,
@@ -7047,7 +7047,7 @@
      "what": "single-page site listing GC-MS as bookable"
     }
    ],
-   "notes": "The site reads like a draft; call to confirm.",
+   "notes": "The site reads like a draft.",
    "has_price": false,
    "gcms_min": null,
    "gcms_item": null,
